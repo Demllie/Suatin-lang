@@ -1,0 +1,12 @@
+i=1;
+sum=2;
+if(sum >= i + 1)
+	sum=0;
+end
+do
+	i=i+1;
+	sum=sum+i;
+	if(sum==7)
+		break;
+	end
+until(i>10)
